@@ -1,11 +1,9 @@
-import 'dart:async';
+//import 'dart:async';
 import 'dart:core';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
+//import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 import 'package:cook_dat/screens/book.dart';
 
@@ -79,7 +77,6 @@ class _ProfileItemsState extends State<ProfileItems> {
           child: Align(
             alignment: Alignment.bottomLeft,
             child: Text(
-              // 'username',
               widget.snap['fullname'].toString(),
               style: TextStyle(fontSize: 14),
             ),

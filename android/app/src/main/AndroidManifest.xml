@@ -3,7 +3,7 @@
    <application
         android:label="cook_dat"
         android:name="${applicationName}"
-        android:icon="assets/logo.jpg">
+        android:icon="@mipmap/launch_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"

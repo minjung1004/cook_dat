@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:cook_dat/widgets/profile_items.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:uuid/uuid.dart';
 import 'home.dart';
 import 'post.dart';
 import 'bookmark.dart';
@@ -16,9 +17,9 @@ class _ProfilePageState extends State<ProfilePage> {
   final Stream<DocumentSnapshot<Map<String, dynamic>>> _postStream =
       FirebaseFirestore.instance
           .collection('posts')
-          .doc(FirebaseAuth.instance.currentUser!.uid) // change to postID
+          .doc(FirebaseAuth.instance.currentUser!.uid)
           .snapshots();
-
+//need to change doc to postId...not sure how to retireve postId
   @override
   Widget build(BuildContext context) {
     return Scaffold(
