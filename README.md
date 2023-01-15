@@ -2,15 +2,8 @@
 
 CS 4750 final project. Recipe sharing app.
 
-## Getting Started
+This app was created to share recipes with friends and family.
 
-This project is a starting point for a Flutter application.
+The application was developed by using flutter.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+APP DEMO: https://drive.google.com/file/d/1k7E5aG4bv913YFw4syTM49PwyDppqMz6/view?usp=sharing
