@@ -64,8 +64,7 @@ android {
         //if error also add multiDexEnabled true
     }
 
-    buildTypes {
-          signingConfigs {
+    signingConfigs {
        release {
            keyAlias keystoreProperties['keyAlias']
            keyPassword keystoreProperties['keyPassword']
@@ -73,12 +72,12 @@ android {
            storePassword keystoreProperties['storePassword']
        }
    }
-   buildTypes {
-       release {
-           signingConfig signingConfigs.release
-       }
-   }
-
+    buildTypes {
+        buildTypes {
+            release {
+                signingConfig signingConfigs.release
+            }    
+        }
     }
 }
 
