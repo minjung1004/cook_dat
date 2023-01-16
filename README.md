@@ -6,4 +6,4 @@ This app was created to share recipes with friends and family.
 
 The application was developed by using flutter.
 
-APP DEMO: https://drive.google.com/file/d/1k7E5aG4bv913YFw4syTM49PwyDppqMz6/view?usp=sharing
+APP DEMO: hhttps://drive.google.com/file/d/1vWuayUEzArPIEDlylqlDBd6vJY5pEyjp/view?usp=sharing
